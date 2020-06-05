@@ -333,6 +333,14 @@ in order to exploit and solve them:
    marked as solved.
 
    ![XSS alert box](img/xss0_alert.png)
+   
+### Determine the answer to someone's security question by looking at images on the Photo wall
+   
+1. Go to the photo wall and search for the photo that has been posted by the user         
+   geo1@gmail.com.
+2. Download that photo.
+3. Upload the same photo on <http://exif.regex.info/exif.cgi>.
+4. The metadata resulting from the uploaded photo is the answer to the security question.
 
 ## ⭐⭐⭐ Challenges
 
@@ -1514,6 +1522,10 @@ explains the problem and gives an exploit example:
     alert popup.
 
     ![XSS in Last Login IP address](img/xss5_lastLoginIp.png)
+    
+### Determine the answer to someone's security question by looking at images on the Photo wall.
+
+1.
 
 ## ⭐⭐⭐⭐⭐ Challenges
 
